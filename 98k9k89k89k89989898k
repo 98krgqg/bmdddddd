@@ -22,7 +22,7 @@ if isLocalPlayerWhitelisted then
         Text = "玩家:"..localPlayer.Name.."，检测完毕白名单玩家，稍后会加载脚本",
         Duration = 7,
     })
-    loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/9139be6b2b39f7f4d59b428c64bef6d53c5415e615d8203978f99e3e192bf390/download"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/98krgqg/dnr/refs/heads/main/dnrr"))()
 else
     localPlayer:Kick("你没有被加入白名单")
 end
